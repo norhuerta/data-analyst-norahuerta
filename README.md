@@ -17,7 +17,7 @@ This project focuses on designing and implementing a Data Analytic Platform (DAP
   - AWS Glue for Extract, Transform, Load (ETL)
   
 ### **Phase 2**: AWS Infrastructure Design and Implementation
-- **Objective**: Build and manage the infrastructure needed for the DAP, including data protection, governance, monitoring, and cost optimization.
+- **Objective**: Build and manage the infrastructure needed for the DAP, including data protection, governance, and monitoring ![AWS](asw/aws_setup.md)
 - **Key AWS Services**: 
   - **Amazon S3** for storage of raw and processed data.
   - **AWS Glue** for ETL processes.
