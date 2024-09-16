@@ -11,7 +11,7 @@ This project focuses on designing and implementing a Data Analytic Platform (DAP
 - **Objective**: Prepare call center data by cleaning and transforming it for ingestion into AWS.
 - **Key Tools**: 
   - AWS Glue DataBrew for data cleaning
-  ![Glue Image](images/Glue.png)
+  [Glue Image](images/Glue.png)
   - AWS S3 for data storage
   - Python (Pandas) for additional data wrangling
   - AWS Glue for Extract, Transform, Load (ETL)
