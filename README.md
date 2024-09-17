@@ -48,7 +48,25 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
    - Set up monitoring with **AWS CloudWatch** to track the operational health of the platform, including metrics like CPU usage, costs, and performance​.
    - Use **AWS CloudTrail** to monitor user activity and ensure that sensitive data remains secure​. 
 
-
+## Tools and Technologies
+1. **Amazon S3 (Simple Storage Service)**
+   - Used for storing raw, processed, and curated datasets. S3 was essential for organizing data in different zones (Landing, Raw, Curated) to manage the various stages of the ETL pipeline.
+2. **AWS Gue**
+   - AWS Glue was employed for **ETL (Extract, Transform, Load)** processes. It enabled automation of data cleaning, transformation, and schema modifications, especially through its visual interface and DataBrew
+3. **AWS Glue DataBrew**
+   - Used to clean, normalize, and structure datasets without writing code. It allowed the detection of PII (Personally Identifiable Information) and evaluation of data quality.
+4. **Amazon Athena**
+   - Enabled running **SQL queries** on data stored in S3, facilitating data analysis on large datasets. Athena was used to manipulate and analyze processed call center data​
+5. **AWS CloudWatch**
+   - Monitored AWS resources and applications, including alarms for billing, resource usage, and system health. CloudWatch was also used for real-time tracking of the performance and efficiency of the DAP.
+6. **AWS CloudTrail**
+   _ Tracked and logged **API calls** and user activity across AWS resources. It was critical for ensuring compliance, detecting unauthorized access, and auditing user actions.
+7. **AWS Key Management Services (KMS)**
+   - Provided encryption services to ensure that sensitive data was secured at rest and in transit. KMS was used for managing encryption keys and ensuring that data stored in S3 was encrypted.
+8. **AWS Identity and Access Management (IAM)**
+   - Managed access to AWS resources, ensuring that only authorized users and processes could interact with sensitive datasets. IAM helped enforce the principle of least privilege.
+9. **AWS EC2 (Elastic compute Cloud)**
+   - Deployed virtual machines (instances) to host applications and facilitate the sharing of reports. EC2 provided scalable compute resources for the DAP. 
 
 
 
