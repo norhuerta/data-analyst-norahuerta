@@ -15,10 +15,17 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
    - **Source:** City of Vancouver’s open data portal.
    - **Details:** Includes metrics such as total calls offered, calls handled, calls abandoned, average speed of answer, and service levels for the years 2023 and 2024  
 2. **Call Handling Performance Data**
-
-4. **Handled Calls Data**
-5. **Sensitive Data Detection Logs**
-
+   - **dataset Name:** callsGeneral.xls 
+   - **Source:** AWS S3 (Landing, Raw, Curated zones). 
+   - **Details:** Contains information such as the total number of calls offered, abandoned calls, and service level data​(DAP_CallCenter_Part_1).   
+3. **Handled Calls Data**
+   - **dataset Name:** callsHandled.xls
+   - **Source:** AWS S3
+   - **Details:** Focuses specifically on handled calls, tracking successful interactions between call agents and customers.
+4. **Sensitive Data Detection Logs**
+   - **dataset Name:** AWS Glue ETL Data (callsGeneral raw)
+   - **Source:** AWS Glue 
+   - **Details:** Includes logs for sensitive data detection, such as PII, from call center records.
 
 
 ## Methodology
