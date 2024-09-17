@@ -11,6 +11,11 @@ The second phase of the project focuses on safeguarding call center data while e
 Vancouver’s City Call Center has faced challenges in managing the fluctuating volumes of calls efficiently while maintaining a high standard of service. The existing system struggles with delays and inconsistent handling times, impacting customer satisfaction negatively.
 ## Dataset
 
+## Methodology
+### 1. Data Collection
+
+### 2. Data Assessment
+
 
 
 
