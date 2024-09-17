@@ -1,10 +1,13 @@
 # Data Analytic Platform (DAP) for the Vancouver Call Center
 
-## Project Overview
+## Project Description
+Improve the Calls Handling Percentage at the call center reducing the average handling
+time while maintaining quality of the calls.
+
 This project focuses on designing and implementing a Data Analytic Platform (DAP) for the City of Vancouver’s Call Center. The main objectives are:
 1. Improve **Call Handling Percentage** through effective data monitoring.
 2. Migrate the current system to **AWS** while ensuring data protection, governance, and monitoring using various AWS services.
-3. Implement **Data Wrangling** to clean and prepare raw call center data for further analysis and decision-making.
+   
 
 ## Project Phases
 ### **Phase 1**: Data Wrangling and Preparation
