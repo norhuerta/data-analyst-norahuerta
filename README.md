@@ -29,9 +29,26 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
 
 
 ## Methodology
-### 1. Data 
+1. **Data Collection:**
+   - Gather call center operational data from AWS S3, including callsGeneral.xls and callsHandled.xls, as well as other relevant data logs.
+   - Use AWS Glue for data collection from different buckets and stages (landing, raw, curated)   
+2. **Data Assessment:**
+   - Conduct an initial evaluation of the datasets, identifying inconsistencies, missing values, or formatting issues (e.g., date format standardization).
+   - Validate the source data using AWS Glue DataBrew to detect quality issues and assess Personal Identifiable Information (PII) risks.
+3. **Data Cleaning:**
+   - Use AWS Glue DataBrew to clean the data (remove null values, correct data types, and standardize formats like date or call status).
+   - Use PII detection capabilities to ensure compliance with data privacy regulations.
+4. **Data Transformation:**
+   - Perform data transformations using AWS Glue ETL tools, including schema changes, data aggregation (e.g., total calls handled), and feature extraction (e.g., calculating Call Handling Percentage).
+   - Use Athena for SQL queries on transformed data.
+5. **Data Consolidation:**
+   - Merge operational and handled call datasets into a unified system, ensuring all records are aligned and linked by key metrics like call IDs.
+   - Store the processed data in the Curated zone on AWS S3.
+6. **Data Monitoring and Validation:**
+   - Set up monitoring with **AWS CloudWatch** to track the operational health of the platform, including metrics like CPU usage, costs, and performance​.
+   - Use **AWS CloudTrail** to monitor user activity and ensure that sensitive data remains secure​. 
 
-### 2. Data 
+
 
 
 
