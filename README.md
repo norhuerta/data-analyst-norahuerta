@@ -10,14 +10,14 @@ The second phase of the project focuses on safeguarding call center data while e
 ## Background
 Vancouver’s City Call Center has faced challenges in managing the fluctuating volumes of calls efficiently while maintaining a high standard of service. The existing system struggles with delays and inconsistent handling times, impacting customer satisfaction negatively.
 ## Dataset
-1. ** Call Center Operational Data **
-- ** dataset Name: 3-1-1 Contact Center Metrics
-- ** Source:**City of Vancouver’s open data portal.
-- ** Details:** Includes metrics such as total calls offered, calls handled, calls abandoned, average speed of answer, and service levels for the years 2023 and 2024  
-2. ** Call Handling Performance Data **
+1. **Call Center Operational Data**
+- **dataset Name:** 3-1-1 Contact Center Metrics
+- **Source:** City of Vancouver’s open data portal.
+- **Details:** Includes metrics such as total calls offered, calls handled, calls abandoned, average speed of answer, and service levels for the years 2023 and 2024  
+2. **Call Handling Performance Data**
 
-4. ** Handled Calls Data **
-5. ** Sensitive Data Detection Logs **
+4. **Handled Calls Data**
+5. **Sensitive Data Detection Logs**
 
 
 
