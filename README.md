@@ -47,6 +47,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
    - Merge operational and handled call datasets into a unified system, ensuring all records are aligned and linked by key metrics like call IDs.
    - Store the processed data in the Curated zone on AWS S3.
 6. **Data Monitoring and Validation:**
+   - [Set up](/aws/aws_setup.md)
    - Set up monitoring with **AWS CloudWatch** to track the operational health of the platform, including metrics like CPU usage, costs, and performance​.
    - Use **AWS CloudTrail** to monitor user activity and ensure that sensitive data remains secure​. 
 
