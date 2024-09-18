@@ -64,9 +64,9 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
 6. **AWS CloudTrail**
    _ Tracked and logged **API calls** and user activity across AWS resources. It was critical for ensuring compliance, detecting unauthorized access, and auditing user actions.
 7. **AWS Key Management Services (KMS)**
-   - Provided encryption services to ensure that sensitive data was secured at rest and in transit. KMS was used for managing encryption keys and ensuring that data stored in S3 was encrypted.
+   - Provided encryption services to ensure that sensitive data was secured at rest and in transit. [KMS](/images/KMS_.png) was used for managing encryption keys and ensuring that data stored in S3 was encrypted.
 8. **AWS Identity and Access Management (IAM)**
-   - Managed access to AWS resources, ensuring that only authorized users and processes could interact with sensitive datasets. IAM helped enforce the principle of least privilege.
+   - Managed access to AWS resources, ensuring that only authorized users and processes could interact with sensitive datasets. [IAM](/images/IAM.png) helped enforce the principle of least privilege.
 9. **AWS EC2 (Elastic compute Cloud)**
    - Deployed virtual machines (instances) to host applications and facilitate the sharing of reports. EC2 provided scalable compute resources for the DAP. 
 10. **Draw.io**
