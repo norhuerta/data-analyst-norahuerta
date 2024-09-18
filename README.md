@@ -5,6 +5,7 @@ The Data Analytic Platform (DAP) for the Vancouver Call Center is a two-phase pr
 ## Objetive
 ### **Phase 1**: Call Handling Efficiency and Performance
 In the first phase of the DAP, the primary goal was to improve call handling efficiency by analyzing operational metrics like call volume, average handling time, and service levels. By implementing a robust data pipeline using AWS services such as S3 for storage and AWS Glue for ETL processes, we processed call center metrics data (e.g., calls offered, calls handled). The descriptive metric introduced was the Call Handling Percentage, used to evaluate how efficiently the call center manages incoming calls, providing insights for resource planning and performance improvements​.
+![DAP](/images/DRAW_IO.png)
 ### **Phase 2**: Data Governance, Protection, and Monitoring
 The second phase of the project focuses on safeguarding call center data while ensuring compliance with data governance and protection regulations​.This phase builds on the technical foundation laid in Phase 1 by integrating AWS's Well-Architected Framework, particularly focusing on the five pillars of operational excellence, security, reliability, performance efficiency, and cost optimization.
 ## Background
