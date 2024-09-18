@@ -13,7 +13,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
 1. **Call Center Operational Data**
    - **dataset Name:** 3-1-1 Contact Center Metrics
    - **Source:** City of Vancouver’s open data portal.
-   - **Details:** Includes metrics [Metrics](/images/metrics.png) such as total calls offered, calls handled, calls abandoned, average speed of answer, and service levels for the years 2023 and 2024  
+   - **Details:** Includes metrics [Metrics](/images/Metrics.png) such as total calls offered, calls handled, calls abandoned, average speed of answer, and service levels for the years 2023 and 2024  
 2. **Call Handling Performance Data**
    - **dataset Name:** callsGeneral.xls 
    - **Source:** AWS S3 (Landing, Raw, Curated zones). 
