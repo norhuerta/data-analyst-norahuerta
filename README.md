@@ -87,7 +87,10 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
    - Description: Comprehensive documentation that includes descriptions of the data wrangling process, methodologies, transformations applied, and the AWS architecture used in the project.
      
 ## Architecture and Design Principles
-The Data Analytic Platform (DAP) for the Vancouver Call Center was designed and implemented based on the AWS Well-Architected Framework, which ensures that the platform is secure, reliable, and scalable. The architecture adheres to the following five pillars of the framework:
+The Data Analytic Platform (DAP) for the Vancouver Call Center was designed and implemented based on the AWS Well-Architected Framework, which ensures that the platform is secure, reliable, and scalable.
+
+
+The architecture adheres to the following five pillars of the framework:
 
 1. **Operational Excellence**
    - The platform was built with automation in mind using services like **AWS Glue** and **CloudWatch** to monitor and optimize operations. The system supports frequent, small changes and is designed to recover quickly from failures​
