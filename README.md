@@ -17,7 +17,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
 2. **Call Handling Performance Data**
    - **dataset Name:** callsGeneral.xls 
    - **Source:** AWS S3 (Landing, Raw, Curated zones). 
-   - **Details:** Contains information such as the total number of calls offered, abandoned calls, and service level data​(DAP_CallCenter_Part_1).   
+   - **Details:** Contains information such as the total number of calls offered, abandoned calls, and service level data​.   
 3. **Handled Calls Data**
    - **dataset Name:** callsHandled.xls
    - **Source:** AWS S3
