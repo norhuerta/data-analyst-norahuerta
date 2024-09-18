@@ -24,7 +24,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
    - **Details:** Focuses specifically on handled calls, tracking successful interactions between call agents and customers.
 4. **Sensitive Data Detection Logs**
    - **dataset Name:** AWS Glue ETL Data (callsGeneral raw)
-   - **Source:** AWS Glue 
+   - **Source:** AWS Glue. ETL Data Pipeline Design, through [Data Linage diagram](/images/Linage.png) 
    - **Details:** Includes logs for sensitive data detection, such as PII, from call center records.
 
 
