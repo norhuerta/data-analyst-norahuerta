@@ -68,7 +68,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
 8. **AWS Identity and Access Management (IAM)**
    - Managed access to AWS resources, ensuring that only authorized users and processes could interact with sensitive datasets. [IAM](/images/IAM.png) helped enforce the principle of least privilege.
 9. **AWS EC2 (Elastic compute Cloud)**
-   - Deployed virtual machines ([instances[(/images/Instances.png)) to host applications and facilitate the sharing of reports. EC2 provided scalable compute resources for the DAP. 
+   - Deployed virtual machines ([instances](/images/Instances.png)) to host applications and facilitate the sharing of reports. EC2 provided scalable compute resources for the DAP. 
 10. **Draw.io**
     - Used to create and visualize data flow diagrams, architecture diagrams, and workflows for a better understanding of data processes and infrastructure.
    
