@@ -16,7 +16,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
    - **Details:** Includes metrics [Metrics](/images/Metrics_Files.png) such as total calls offered, calls handled, calls abandoned, average speed of answer, and service levels for the years 2023 and 2024  
 2. **Call Handling Performance Data**
    - **dataset Name:** callsGeneral.xls 
-   - **Source:** AWS S3 (Landing, Raw, Curated) [zones](/images/Zones). 
+   - **Source:** AWS S3 (Landing, Raw, Curated) [zones](/images/Zones.png). 
    - **Details:** Contains information such as the total number of calls offered, abandoned calls, and service level data​.   
 3. **Handled Calls Data**
    - **dataset Name:** callsHandled.xls
