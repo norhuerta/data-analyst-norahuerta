@@ -78,7 +78,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
    - Location: Stored in the [**raw**](/images/rawCSV.png) folder within the Amazon S3 bucket.
    - Description: This dataset includes unprocessed call center metrics directly ingested from the contact center logs. It serves as the initial input before any data cleaning or transformation occurs.
 2. **Curated Data CSV Files**
-   - Location: Stored in the [**curated**[(/images/Curated.png) folder within the Amazon S3 bucket.
+   - Location: Stored in the [**curated**](/images/Curated.png) folder within the Amazon S3 bucket.
    - Description: These files represent the cleaned and transformed dataset, with personal identification information (PII) removed and quality issues resolved. The curated dataset is ready for analysis and querying.
 
 3. **Trusted Data CSV Files**
