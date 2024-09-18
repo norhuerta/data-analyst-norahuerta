@@ -9,4 +9,5 @@
 - **PII Detection**: Implemented PII detection using AWS Glue DataBrew to ensure that no sensitive information (e.g., names, addresses) is exposed.
 
 ## 3. Data Monitoring: CloudWatch
-- **CloudWatch Alarms**: Set up alarms to monitor AWS billing. An alert is triggered if estimated costs exceed a predefined threshold ($35). This ensures cost control and timely notifications.
+- **CloudWatch Alarms**: Set up alarms to monitor AWS billing.
+  For [example](/images/Dolares35.png), an alert is triggered if estimated costs exceed a predefined threshold ($35). This ensures cost control and timely notifications.
