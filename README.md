@@ -52,7 +52,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
 1. **Amazon S3 (Simple Storage Service)**
    - Used for storing raw, processed, and curated datasets. S3 was essential for organizing data in different zones (Landing, Raw, Curated) to manage the various stages of the ETL pipeline.
 2. **AWS Gue**
-   - AWS Glue was employed for **ETL (Extract, Transform, Load)** processes. It enabled automation of data cleaning, transformation, and schema modifications, especially through its visual interface and DataBrew
+   - AWS Glue was employed for **ETL (Extract, Transform, Load)** [processes](/images/Visual.png). It enabled automation of data cleaning, transformation, and schema modifications, especially through its visual interface and DataBrew
 3. **AWS Glue DataBrew**
    - Used to clean, normalize, and structure [datasets](/images/Datasets.png) without writing code. It allowed the detection of PII (Personally Identifiable Information) and evaluation of data quality.
 4. **Amazon Athena**
