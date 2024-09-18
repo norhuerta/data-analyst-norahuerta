@@ -56,7 +56,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
 3. **AWS Glue DataBrew**
    - Used to clean, normalize, and structure [datasets](/images/Datasets.png) without writing code. It allowed the detection of PII (Personally Identifiable Information) and evaluation of data quality.
 4. **Amazon Athena**
-   - Enabled running **SQL queries** on data stored in S3, facilitating data analysis on large datasets. Athena was used to manipulate and analyze processed call center data​
+   - Enabled running **SQL queries** on data stored in S3, facilitating data analysis on large datasets. Athena was used to [manipulate](/images/Query.png) and analyze processed call center data​
 5. **AWS CloudWatch**
    - Monitored AWS resources and applications, including alarms for billing, resource usage, and system health. CloudWatch was also used for real-time tracking of the performance and efficiency of the DAP.
 6. **AWS CloudTrail**
