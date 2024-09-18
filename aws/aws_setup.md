@@ -10,5 +10,6 @@
 
 ## 3. Data Monitoring: CloudWatch
 - **CloudWatch Alarms**: Set up alarms to monitor AWS billing.
-  For ![example](/images/Dolares35.png),
+  For example:
+   ![example](/images/Dolares35.png),
    an alert is triggered if estimated costs exceed a predefined threshold ($35). This ensures cost control and timely notifications.
