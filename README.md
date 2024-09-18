@@ -67,7 +67,25 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
    - Managed access to AWS resources, ensuring that only authorized users and processes could interact with sensitive datasets. IAM helped enforce the principle of least privilege.
 9. **AWS EC2 (Elastic compute Cloud)**
    - Deployed virtual machines (instances) to host applications and facilitate the sharing of reports. EC2 provided scalable compute resources for the DAP. 
+10. **Draw.io**
+    - Used to create and visualize data flow diagrams, architecture diagrams, and workflows for a better understanding of data processes and infrastructure.
+   
+## Deliverables
+1. **Raw Data CSV Files**
+   - Location: Stored in the **raw** folder within the Amazon S3 bucket.
+   - Description: This dataset includes unprocessed call center metrics directly ingested from the contact center logs. It serves as the initial input before any data cleaning or transformation occurs.
+2. **Curated Data CSV Files**
+   - Location: Stored in the **curated** folder within the Amazon S3 bucket.
+   - Description: These files represent the cleaned and transformed dataset, with personal identification information (PII) removed and quality issues resolved. The curated dataset is ready for analysis and querying.
 
+3. **Trusted Data CSV Files**
+   - Location: Stored in the **Trusted** folder within the Amazon S3 bucket.
+   - Description: The final validated dataset, fully cleaned and processed, adhering to data governance and privacy policies. This dataset has been quality-checked and is ready for use in business intelligence (BI) tools or further analysis.
+
+4. **documentation**
+   - Location: Available in the repository as **markdown** files.
+   - Description: Comprehensive documentation that includes descriptions of the data wrangling process, methodologies, transformations applied, and the AWS architecture used in the project.
+     
 
 
 
