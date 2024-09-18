@@ -54,7 +54,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
 2. **AWS Gue**
    - AWS Glue was employed for **ETL (Extract, Transform, Load)** processes. It enabled automation of data cleaning, transformation, and schema modifications, especially through its visual interface and DataBrew
 3. **AWS Glue DataBrew**
-   - Used to clean, normalize, and structure datasets without writing code. It allowed the detection of PII (Personally Identifiable Information) and evaluation of data quality.
+   - Used to clean, normalize, and structure [datasets](/images/Datasets.png) without writing code. It allowed the detection of PII (Personally Identifiable Information) and evaluation of data quality.
 4. **Amazon Athena**
    - Enabled running **SQL queries** on data stored in S3, facilitating data analysis on large datasets. Athena was used to manipulate and analyze processed call center data​
 5. **AWS CloudWatch**
