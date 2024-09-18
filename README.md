@@ -8,6 +8,7 @@ In the first phase of the DAP, the primary goal was to improve call handling eff
 ![DAP](/images/DRAW_IO.png)
 ### **Phase 2**: Data Governance, Protection, and Monitoring
 The second phase of the project focuses on safeguarding call center data while ensuring compliance with data governance and protection regulations​.This phase builds on the technical foundation laid in Phase 1 by integrating AWS's Well-Architected Framework, particularly focusing on the five pillars of operational excellence, security, reliability, performance efficiency, and cost optimization.
+![DAP](/images/DRAW_IO2.png)
 ## Background
 Vancouver’s City Call Center has faced challenges in managing the fluctuating volumes of calls efficiently while maintaining a high standard of service. The existing system struggles with delays and inconsistent handling times, impacting customer satisfaction negatively.
 ## Dataset
