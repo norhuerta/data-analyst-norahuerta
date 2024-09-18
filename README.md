@@ -86,6 +86,20 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
    - Location: Available in the repository as **markdown** files.
    - Description: Comprehensive documentation that includes descriptions of the data wrangling process, methodologies, transformations applied, and the AWS architecture used in the project.
      
+## Architecture and Design Principles
+The Data Analytic Platform (DAP) for the Vancouver Call Center was designed and implemented based on the AWS Well-Architected Framework, which ensures that the platform is secure, reliable, and scalable. The architecture adheres to the following five pillars of the framework:
+
+1. **Operational Excellence**
+   - The platform was built with automation in mind using services like **AWS Glue** and **CloudWatch** to monitor and optimize operations. The system supports frequent, small changes and is designed to recover quickly from failures​
+2. **Security**
+   - AWS **Identity Access Management (IAM)**, AWS **Key Management Service (KMS)**, and **CloudTrail** were implemented to ensure robust security, enforcing the principle of least privilege, encrypting sensitive data, and monitoring access and activities​.
+3. **Reliability**
+   - The platform was designed for fault tolerance using **Amazon S3** for data storage with replication features, and **CloudWatch alarms** to anticipate and react to potential failures. However, improvements in auto-scaling and recovery processes are considered for future iterations​.
+4. **Performance Efficiency**
+   - Leveraging **AWS Athena** for running queries on large datasets, and optimizing the data pipeline with **AWS Glue**, the platform ensures that resources are utilized efficiently without compromising performance.
+5. **Cost Optimization**
+   - **AWS Cost Explorer** and **CloudWatch Billing Alarms** were set up to monitor and control costs, ensuring that the system remains cost-effective as it scales. The solution is optimized for both performance and budget
+
 
 
 
