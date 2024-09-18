@@ -63,7 +63,7 @@ Vancouver’s City Call Center has faced challenges in managing the fluctuating 
 5. **AWS CloudWatch**
    - Monitored AWS resources and applications, including alarms for billing, resource usage, and system health. CloudWatch was also used for real-time tracking of the performance and efficiency of the DAP.
 6. **AWS CloudTrail**
-   _ Tracked and logged **API calls** and user activity across AWS resources. It was critical for ensuring compliance, detecting unauthorized access, and auditing user actions.
+   _ Tracked and logged **API calls** and user activity across AWS [resources](/images/Trail.png). It was critical for ensuring compliance, detecting unauthorized access, and auditing user actions.
 7. **AWS Key Management Services (KMS)**
    - Provided encryption services to ensure that sensitive data was secured at rest and in transit. [KMS](/images/KMS_.png) was used for managing encryption keys and ensuring that data stored in S3 was encrypted.
 8. **AWS Identity and Access Management (IAM)**
